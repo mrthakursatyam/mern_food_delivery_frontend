@@ -1,0 +1,28 @@
+.appDownload{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 8rem auto;
+}
+
+.appDownload p{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 550;
+}
+
+.appDownload-platforms{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.appDownload-platforms img{
+    width: 11rem;
+    cursor: pointer;
+}
+
+.appDownload-platforms img:hover{
+    transform: scale(1.05);
+}
